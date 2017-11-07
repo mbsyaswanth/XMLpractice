@@ -5,13 +5,11 @@
    <body>
    <h2>People and Places</h2>
    <table>
-     <xml:value-of select="root/title"/>
      <tr>
-       <th><xml:value-of select="name"/></th>
-       <th><xml:value-of select="person"/></th>
+       <th><xml:value-of select="root/title/name"/></th>
+       <th><xml:value-of select="root/title/person"/></th>
      </tr>
-     <xml:for-each>
-       <xml:value-of select="root"/>
+     <xml:for-each select="root">
       <tr>
         <td><xml:value-of select="person/name"/></td>
         <td><xml:value-of select="person/place"/></td>
