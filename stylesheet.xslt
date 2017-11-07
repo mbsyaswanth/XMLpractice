@@ -4,7 +4,7 @@
    <html>
    <body>
    <h2>People and Places</h2>
-   <table>
+   <table border="1">
      <tr>
        <th><xml:value-of select="root/title/name"/></th>
        <th><xml:value-of select="root/title/person"/></th>
