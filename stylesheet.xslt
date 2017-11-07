@@ -18,5 +18,5 @@
    </table>
  </body>
  </html>
- </xsl:templete>
+ </xsl:template>
 </xsl:stylesheet>
