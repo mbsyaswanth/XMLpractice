@@ -3,7 +3,7 @@
  <xsl:template match="/">
    <html>
    <body>
-   <h2>People and Places<h2>
+   <h2>People and Places</h2>
    <table>
      <xml:value-of select="root/title"/>
      <tr>
@@ -11,10 +11,10 @@
        <th><xml:value-of select="person"/></th>
      </tr>
      <xml:for-each>
-       <xml:value-of select="root">
+       <xml:value-of select="root"/>
       <tr>
-        <td><xml:value-of select="person/name"></td>
-        <td><xml:value-of select="person/place"></td>
+        <td><xml:value-of select="person/name"/></td>
+        <td><xml:value-of select="person/place"/></td>
       </tr>
      </xml:for-each>
    </table>
