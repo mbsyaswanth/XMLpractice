@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+  <body>
+    <div><div>
+  </body>
+  <script>
+  xml=loadXMLDoc("XMLtable.xml");
+  xsl=loadXMLDoc("stylesheet.xsl");
+  xsltProcessor = new xsltProcessor();
+  xsltProcessor.importStylesheet(xsl);
+  resultDocument=xsltProcessor.transformToFragment(xml, document);
+  document.getElementsByTagName('div').appendChild(resultDocument);
+  </script>
+</html>

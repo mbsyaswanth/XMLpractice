@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="stylesheet.xslt"?>
+<root>
+  <title>
+   <name>Name</name>
+   <place>Place</place>
+  </title>
+  <person>
+  <name>yaswanth</name>
+  <place>mahabubnagar</place>
+  </person>
+  <person>
+  <name>vishy</name>
+  <place>srihari kota</place>
+  </person>
+  <person>
+  <name>samba</name>
+  <place>vijayawada</place>
+  </person>
+</root>
